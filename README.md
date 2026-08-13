@@ -3,10 +3,17 @@
 **What an ERC-4626 dollar vault actually paid, read from the chain. And a
 one-command check of every row Kerne publishes about other people.**
 
-Zero dependencies, no API key, no wallet, no account anywhere. From a clean
-clone:
+Zero dependencies, no API key, no wallet, no account anywhere. One line, no
+clone, no install:
 
 ```
+npx -y github:kerne-protocol/realized-apy check
+```
+
+or from a clean clone, which is the same thing without npm in the way:
+
+```
+git clone https://github.com/kerne-protocol/realized-apy && cd realized-apy
 node bin/realized-apy.mjs check
 ```
 

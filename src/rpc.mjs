@@ -199,8 +199,17 @@ export async function readAgreed(chain, calls, { rpcs, timeoutMs = 20000, requir
       const na = JSON.stringify(normalizeResult(calls[i].method, a.results[i]));
       const nb = JSON.stringify(normalizeResult(calls[i].method, b.results[i]));
       if (na !== nb) {
+        // One side erroring while the other answers is almost always a lagging
+        // node asked about a block it does not have yet, not a dispute about
+        // consensus state. Those are very different accusations and the tool
+        // must not make the second one when the first is what happened.
+        const oneSideErrored = na === '"!call-error"' || nb === '"!call-error"';
+        const what = oneSideErrored
+          ? 'One endpoint could not answer'
+          : 'Two endpoints disagreed about';
         throw new RpcError(
-          `Two endpoints disagreed about ${calls[i].method} at ${JSON.stringify(calls[i].params[1] ?? '')}.\n` +
+          `${what} ${calls[i].method} at ${JSON.stringify(calls[i].params[1] ?? '')}` +
+            `${oneSideErrored ? ', which usually means it is behind. Retry, or pin an older block.' : '.'}\n` +
             `  ${a.url}: ${na}\n  ${b.url}: ${nb}`,
           '',
         );
