@@ -1,0 +1,35 @@
+{
+  "name": "realized-apy",
+  "version": "0.1.0",
+  "description": "What an ERC-4626 dollar vault actually paid, read from public RPC. Zero dependencies, no API key. Also re-derives every row of the Kerne Honesty Index and says whether it holds.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "realized-apy": "./bin/realized-apy.mjs"
+  },
+  "$comment:test": "Bare `node --test` discovers the suite itself; passing a quoted glob only works from node 21 up and fails on the version floor this package advertises. The offline suite needs no network. `test:live` hits public endpoints and is therefore not what CI gates a pull request on.",
+  "scripts": {
+    "test": "node --test test/",
+    "test:live": "REALIZED_APY_LIVE=1 node --test test/",
+    "check": "node bin/realized-apy.mjs check"
+  },
+  "keywords": [
+    "erc-4626",
+    "apy",
+    "yield",
+    "stablecoin",
+    "share-price",
+    "ethereum",
+    "verification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerne-protocol/realized-apy.git"
+  },
+  "homepage": "https://kerne.fi/honesty-index/reproduce",
+  "dependencies": {},
+  "devDependencies": {}
+}

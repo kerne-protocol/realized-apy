@@ -1,0 +1,3 @@
+# The signed fixture must survive checkout on every platform byte for byte,
+# or the signature it exists to prove stops verifying.
+test/fixtures/*.json -text

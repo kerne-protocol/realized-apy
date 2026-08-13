@@ -1,0 +1,150 @@
+name: verify
+
+# Runs the whole claim on the tin, daily, from a clean clone, on a machine
+# nobody involved controls.
+#
+# A repository that says "one command reproduces the board" and is never run is
+# a claim, not a check. This job is the difference. It clones fresh, installs
+# nothing, and re-derives every row from public RPC, then commits what it got
+# so there is a dated public trail of the board reproducing (or not).
+#
+# WHY THE FAILURE PATH IS SPLIT. A row that does not reproduce is a defect in
+# the published board and has to be loud. A row that could not be READ is a
+# public endpoint having a bad morning and is not evidence about anybody. The
+# first opens an issue; the second is recorded and tolerated. Collapsing them
+# would train everyone to ignore the alarm within a fortnight, which is exactly
+# how the sibling project's nightly job failed four nights running before
+# anyone looked.
+
+on:
+  schedule:
+    - cron: '23 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Proves the engines floor in package.json is true rather than
+        # aspirational.
+        node: ['20', '22', '24']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: There is nothing to install, and that is the point
+        run: |
+          test ! -d node_modules
+          node --input-type=commonjs -e "const p=require('./package.json');const d={...p.dependencies,...p.devDependencies};if(Object.keys(d).length){console.error('a dependency appeared: '+Object.keys(d).join(', '));process.exit(1)}"
+      - run: npm test
+
+  reproduce:
+    # Only the scheduled and manual runs touch the network and the repository.
+    # A pull request from a stranger must not be able to make this repo commit.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: offline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Re-derive every row from public RPC
+        id: check
+        run: |
+          mkdir -p out
+          set +e
+          node bin/realized-apy.mjs check --json > out/last-verification.json
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          set -e
+          node --input-type=commonjs -e "
+            const r = require('./out/last-verification.json');
+            const t = r.totals;
+            const lines = [
+              '# Last independent verification',
+              '',
+              'Snapshot ' + r.generated_at + ', signer ' + r.signer + '.',
+              '',
+              '| result | rows |',
+              '| --- | --- |',
+              '| reproduced exactly | ' + t.pass + ' |',
+              '| did NOT reproduce | ' + t.fail + ' |',
+              '| publish no realized figure | ' + t.skip + ' |',
+              '| could not be read this run | ' + t.error + ' |',
+              '',
+              'Signature: ' + (r.signature.ok ? 'verified, and the rows are bound to it.' : 'DID NOT VERIFY.'),
+              '',
+              'Run from a clean clone by a GitHub runner. Reproduce it yourself with',
+              '\`node bin/realized-apy.mjs check\`.',
+              ''
+            ];
+            for (const row of r.results) {
+              if (row.status === 'FAIL') {
+                lines.push('- FAIL ' + row.key + ': published ' + row.published.annualizedPct + '%, recomputed ' + row.mine.annualizedPct + '%');
+              } else if (row.status === 'ERROR') {
+                lines.push('- unread ' + row.key + ': ' + row.reason.split('\n')[0]);
+              }
+            }
+            require('fs').writeFileSync('out/last-verification.md', lines.join('\n'));
+            console.log(lines.slice(0, 12).join('\n'));
+            const bad = t.fail > 0 || !r.signature.ok;
+            require('fs').appendFileSync(process.env.GITHUB_OUTPUT, 'bad=' + (bad ? '1' : '0') + '\n');
+            require('fs').appendFileSync(process.env.GITHUB_OUTPUT, 'summary=' + t.pass + ' reproduced, ' + t.fail + ' did not, ' + t.error + ' unread\n');
+          "
+
+      - name: Commit what it got
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/last-verification.json out/last-verification.md
+          git diff --staged --quiet || git commit -m "verify: ${{ steps.check.outputs.summary }}"
+          git push
+
+      - name: A row that did not reproduce is a defect, so say so out loud
+        if: steps.check.outputs.bad == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('out/last-verification.md', 'utf8');
+            const title = 'A published row did not reproduce';
+            const open = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'verification',
+            });
+            const existing = open.data.find((i) => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['verification'] });
+            }
+            core.setFailed('A published row did not reproduce.');
+
+      - name: Close the alarm when a later run passes
+        if: steps.check.outputs.bad == '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const open = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'verification',
+            });
+            for (const issue of open.data) {
+              if (issue.title === 'A published row did not reproduce') {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number,
+                  body: 'A later run reproduced every row. Closing.',
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: issue.number, state: 'closed',
+                });
+              }
+            }
