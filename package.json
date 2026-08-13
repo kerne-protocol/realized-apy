@@ -10,10 +10,10 @@
   "bin": {
     "realized-apy": "./bin/realized-apy.mjs"
   },
-  "$comment:test": "Bare `node --test` discovers the suite itself; passing a quoted glob only works from node 21 up and fails on the version floor this package advertises. The offline suite needs no network. `test:live` hits public endpoints and is therefore not what CI gates a pull request on.",
+  "$comment:test": "Bare `node --test` discovers the suite itself. Passing a path (`node --test test/`) or a quoted glob only works from node 21 up; on node 20 and 22 it is read as a module specifier and the run dies with Cannot-find-module on the directory path. CI caught exactly that on the first push, which is what the version matrix is for. The offline suite needs no network. `test:live` hits public endpoints and is therefore not what CI gates a pull request on.",
   "scripts": {
-    "test": "node --test test/",
-    "test:live": "REALIZED_APY_LIVE=1 node --test test/",
+    "test": "node --test",
+    "test:live": "REALIZED_APY_LIVE=1 node --test",
     "check": "node bin/realized-apy.mjs check"
   },
   "keywords": [
