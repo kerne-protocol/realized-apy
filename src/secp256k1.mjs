@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // secp256k1 public-key recovery, in BigInt, with no dependencies.
 //
 // This exists for one narrow job: given the 32-byte attestation hash and the

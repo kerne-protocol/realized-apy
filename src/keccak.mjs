@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // keccak256, in about a hundred lines of BigInt, with no dependencies.
 //
 // Ethereum uses the ORIGINAL Keccak padding (0x01), not the NIST SHA-3 padding

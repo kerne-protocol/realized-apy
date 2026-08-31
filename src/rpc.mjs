@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // JSON-RPC over fetch. No provider SDK, no API key, no account.
 //
 // The endpoint lists below are not decoration. Reproducing a thirty day window

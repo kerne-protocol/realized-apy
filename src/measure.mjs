@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // The measurement itself. Four reads and one division.
 //
 // What a vault paid over a period is not an opinion and does not need a model.

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 // realized-apy: what an ERC-4626 dollar vault actually paid, from public RPC.
 //
 //   node bin/realized-apy.mjs check                    every row of the Kerne Honesty Index

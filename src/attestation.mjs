@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // Verify that the numbers you are about to check are the numbers Kerne signed.
 //
 // This matters more than it sounds. Reproducing a row against a JSON document

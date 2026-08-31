@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // Re-derive every row of a published Kerne Honesty Index snapshot from chain
 // data and say, per row, whether the published numbers hold.
 //

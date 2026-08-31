@@ -10,6 +10,12 @@
   "bin": {
     "realized-apy": "bin/realized-apy.mjs"
   },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "$comment:test": "Bare `node --test` discovers the suite itself. Passing a path (`node --test test/`) or a quoted glob only works from node 21 up; on node 20 and 22 it is read as a module specifier and the run dies with Cannot-find-module on the directory path. CI caught exactly that on the first push, which is what the version matrix is for. The offline suite needs no network. `test:live` hits public endpoints and is therefore not what CI gates a pull request on.",
   "scripts": {
     "test": "node --test",
