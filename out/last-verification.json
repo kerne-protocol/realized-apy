@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:37:17.968Z",
+  "generated_at": "2026-09-06T10:37:15.742Z",
   "signer": "0x84949170e0ad0f9bd8686a4aa4922c10f5fdc4ea",
   "signature": {
     "hashMatches": true,
@@ -19,8 +19,8 @@
       "published": {
         "ppsFrom": "1.000098667771066974",
         "ppsTo": "1.000098667771066974",
-        "fromBlock": 49611638,
-        "toBlock": 50907638,
+        "fromBlock": 49654838,
+        "toBlock": 50950838,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -49,15 +49,30 @@
       "chain": "ethereum",
       "address": "0xfE0ccc9942E98C963Fe6b4e5194EB6e3Baa4cb64",
       "published": {
-        "ppsFrom": "1.047415307533952929",
+        "ppsFrom": "1.047547467318670796",
         "ppsTo": "1.051509795860199563",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.8613,
-        "growthPct": 0.390914
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.7005,
+        "growthPct": 0.378248
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.047547467318670796",
+        "ppsTo": "1.051509795860199563",
+        "annualizedPct": 4.7005,
+        "growthPct": 0.378248,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "avant-savusd",
@@ -66,19 +81,19 @@
       "chain": "avalanche",
       "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E",
       "published": {
-        "ppsFrom": "1.190637462741775377",
-        "ppsTo": "1.198994810735433794",
-        "fromBlock": 92159417,
-        "toBlock": 94522454,
-        "annualizedPct": 8.8828,
-        "growthPct": 0.701922
+        "ppsFrom": "1.190953899758851662",
+        "ppsTo": "1.19923590376776066",
+        "fromBlock": 92237353,
+        "toBlock": 94604005,
+        "annualizedPct": 8.7972,
+        "growthPct": 0.695409
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.190637462741775377",
-        "ppsTo": "1.198994810735433794",
-        "annualizedPct": 8.8828,
-        "growthPct": 0.701922,
+        "ppsFrom": "1.190953899758851662",
+        "ppsTo": "1.19923590376776066",
+        "annualizedPct": 8.7972,
+        "growthPct": 0.695409,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -98,15 +113,30 @@
       "chain": "ethereum",
       "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
       "published": {
-        "ppsFrom": "1.074003890391240342",
-        "ppsTo": "1.07862770120686617",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 5.3658,
-        "growthPct": 0.430521
+        "ppsFrom": "1.07412483349615466",
+        "ppsTo": "1.078784802030625285",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 5.4081,
+        "growthPct": 0.433839
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.07412483349615466",
+        "ppsTo": "1.078784802030625285",
+        "annualizedPct": 5.4081,
+        "growthPct": 0.433839,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "curve-scrvusd",
@@ -115,15 +145,30 @@
       "chain": "ethereum",
       "address": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
       "published": {
-        "ppsFrom": "1.10572187856001497",
-        "ppsTo": "1.106698918602213794",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 1.0804,
-        "growthPct": 0.088362
+        "ppsFrom": "1.105763273197723356",
+        "ppsTo": "1.106731101455237907",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 1.0701,
+        "growthPct": 0.087526
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.105763273197723356",
+        "ppsTo": "1.106731101455237907",
+        "annualizedPct": 1.0701,
+        "growthPct": 0.087526,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "ethena-susde",
@@ -132,15 +177,30 @@
       "chain": "ethereum",
       "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
       "published": {
-        "ppsFrom": "1.242244150075398877",
-        "ppsTo": "1.246613194322131218",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.3641,
-        "growthPct": 0.351706
+        "ppsFrom": "1.242375940897236838",
+        "ppsTo": "1.246764320173471829",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.3833,
+        "growthPct": 0.353225
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.242375940897236838",
+        "ppsTo": "1.246764320173471829",
+        "annualizedPct": 4.3833,
+        "growthPct": 0.353225,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "falcon-susdf",
@@ -149,15 +209,30 @@
       "chain": "ethereum",
       "address": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
       "published": {
-        "ppsFrom": "1.128730171212584022",
-        "ppsTo": "1.133228056415167085",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.9576,
-        "growthPct": 0.398491
+        "ppsFrom": "1.128901606151030423",
+        "ppsTo": "1.133349820911167629",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.9009,
+        "growthPct": 0.39403
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.128901606151030423",
+        "ppsTo": "1.133349820911167629",
+        "annualizedPct": 4.9009,
+        "growthPct": 0.39403,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "frax-sfrxusd",
@@ -166,15 +241,30 @@
       "chain": "ethereum",
       "address": "0xcf62F905562626CfcDD2261162a51fd02Fc9c5b6",
       "published": {
-        "ppsFrom": "1.2049369497072782",
-        "ppsTo": "1.209115205383153986",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.3016,
-        "growthPct": 0.346761
+        "ppsFrom": "1.205069604900268265",
+        "ppsTo": "1.209270524006306307",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.3249,
+        "growthPct": 0.348604
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.205069604900268265",
+        "ppsTo": "1.209270524006306307",
+        "annualizedPct": 4.3249,
+        "growthPct": 0.348604,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "maple-syrupusdc",
@@ -183,15 +273,30 @@
       "chain": "ethereum",
       "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
       "published": {
-        "ppsFrom": "1.176997",
-        "ppsTo": "1.181637",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.9034,
-        "growthPct": 0.394224
+        "ppsFrom": "1.177149",
+        "ppsTo": "1.181799",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.9135,
+        "growthPct": 0.395022
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000006\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.177149",
+        "ppsTo": "1.181799",
+        "annualizedPct": 4.9135,
+        "growthPct": 0.395022,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 6,
+        "assetDecimals": 6
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "maple-syrupusdt",
@@ -200,15 +305,30 @@
       "chain": "ethereum",
       "address": "0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D",
       "published": {
-        "ppsFrom": "1.1378",
-        "ppsTo": "1.14187",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.4401,
-        "growthPct": 0.357708
+        "ppsFrom": "1.137927",
+        "ppsTo": "1.142007",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.4507,
+        "growthPct": 0.358547
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000006\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.137927",
+        "ppsTo": "1.142007",
+        "annualizedPct": 4.4507,
+        "growthPct": 0.358547,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 6,
+        "assetDecimals": 6
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "neutrl-snusd",
@@ -217,15 +337,30 @@
       "chain": "ethereum",
       "address": "0x08EFCC2F3e61185D0EA7F8830B3FEc9Bfa2EE313",
       "published": {
-        "ppsFrom": "1.062965251918352677",
+        "ppsFrom": "1.063077982590441843",
         "ppsTo": "1.064387162516178975",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 1.6397,
-        "growthPct": 0.133768
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 1.5087,
+        "growthPct": 0.12315
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.063077982590441843",
+        "ppsTo": "1.064387162516178975",
+        "annualizedPct": 1.5087,
+        "growthPct": 0.12315,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "noon-susn",
@@ -234,15 +369,30 @@
       "chain": "ethereum",
       "address": "0xe24a3dc889621612422a64e6388927901608b91d",
       "published": {
-        "ppsFrom": "1.212809309639842425",
-        "ppsTo": "1.219701248822183485",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 7.1375,
-        "growthPct": 0.568262
+        "ppsFrom": "1.21301147569793523",
+        "ppsTo": "1.219996106624814821",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 7.2354,
+        "growthPct": 0.575809
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x000000000000000000000000da67b4284609d2d48e5d10cfac411572727dc1ed\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.21301147569793523",
+        "ppsTo": "1.219996106624814821",
+        "annualizedPct": 7.2354,
+        "growthPct": 0.575809,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "sky-susds",
@@ -251,15 +401,30 @@
       "chain": "ethereum",
       "address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
       "published": {
-        "ppsFrom": "1.105383726431913164",
-        "ppsTo": "1.108535453843299762",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 3.5248,
-        "growthPct": 0.285125
+        "ppsFrom": "1.105488499499335811",
+        "ppsTo": "1.108642872014124655",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 3.5275,
+        "growthPct": 0.285337
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.105488499499335811",
+        "ppsTo": "1.108642872014124655",
+        "annualizedPct": 3.5275,
+        "growthPct": 0.285337,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "spark-susdc",
@@ -268,15 +433,15 @@
       "chain": "ethereum",
       "address": "0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE",
       "published": {
-        "ppsFrom": "1.105383",
-        "ppsTo": "1.108535",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 3.5251,
-        "growthPct": 0.28515
+        "ppsFrom": "1.105488",
+        "ppsTo": "1.108642",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 3.527,
+        "growthPct": 0.285304
       },
       "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\""
+      "reason": "One endpoint could not answer eth_call at \"0x18b7936\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000006\""
     },
     {
       "key": "tori-strusd",
@@ -285,15 +450,30 @@
       "chain": "ethereum",
       "address": "0x280839980a7eD0D7717F64125fE241012E5F5815",
       "published": {
-        "ppsFrom": "1.011218179418077639",
-        "ppsTo": "1.019775337798887523",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 10.7964,
-        "growthPct": 0.846223
+        "ppsFrom": "1.011519231425670897",
+        "ppsTo": "1.020053394762437846",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 10.7626,
+        "growthPct": 0.843698
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.011519231425670897",
+        "ppsTo": "1.020053394762437846",
+        "annualizedPct": 10.7626,
+        "growthPct": 0.843698,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "usual-susd0",
@@ -302,15 +482,30 @@
       "chain": "ethereum",
       "address": "0xd861bE82dEe3223CFBEd160791f6550b0704D406",
       "published": {
-        "ppsFrom": "1.031001829093325066",
-        "ppsTo": "1.034421953476238974",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
-        "annualizedPct": 4.1116,
-        "growthPct": 0.331728
+        "ppsFrom": "1.031115018765216522",
+        "ppsTo": "1.034535660869121241",
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
+        "annualizedPct": 4.1118,
+        "growthPct": 0.331742
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.031115018765216522",
+        "ppsTo": "1.034535660869121241",
+        "annualizedPct": 4.1118,
+        "growthPct": 0.331742,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "stableslabs-susdx",
@@ -321,13 +516,28 @@
       "published": {
         "ppsFrom": "1.115324242564639433",
         "ppsTo": "1.115324242564639433",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
         "annualizedPct": 0,
         "growthPct": 0
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.115324242564639433",
+        "ppsTo": "1.115324242564639433",
+        "annualizedPct": 0,
+        "growthPct": 0,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "resolv-wstusr",
@@ -338,13 +548,13 @@
       "published": {
         "ppsFrom": "1.132966158918315225",
         "ppsTo": "1.132966158918315225",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
         "annualizedPct": 0,
         "growthPct": 0
       },
       "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "reason": "One endpoint could not answer eth_call at \"0x18b7936\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000067773745553520000000000000000000000000000000000000000000000000000\""
     },
     {
       "key": "yieldfi-yusd",
@@ -355,13 +565,28 @@
       "published": {
         "ppsFrom": "0.998453",
         "ppsTo": "0.998453",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
         "annualizedPct": 0,
         "growthPct": 0
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000006\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "0.998453",
+        "ppsTo": "0.998453",
+        "annualizedPct": 0,
+        "growthPct": 0,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 6
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "elixir-sdeusd",
@@ -372,13 +597,13 @@
       "published": {
         "ppsFrom": "1.07056672845499187",
         "ppsTo": "1.07056672845499187",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
         "annualizedPct": 0,
         "growthPct": 0
       },
       "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "reason": "One endpoint could not answer eth_call at \"0x18b7936\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
     },
     {
       "key": "level-slvlusd",
@@ -389,20 +614,20 @@
       "published": {
         "ppsFrom": "1.148556137630990128",
         "ppsTo": "1.148556137630990128",
-        "fromBlock": 25695352,
-        "toBlock": 25910572,
+        "fromBlock": 25702536,
+        "toBlock": 25917750,
         "annualizedPct": 0,
         "growthPct": 0
       },
       "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18b5d2c\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
+      "reason": "One endpoint could not answer eth_call at \"0x18b7936\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"!call-error\"\n  https://eth-mainnet.public.blastapi.io: \"0x0000000000000000000000000000000000000000000000000000000000000012\""
     }
   ],
   "totals": {
-    "pass": 2,
+    "pass": 17,
     "fail": 0,
     "skip": 0,
-    "error": 19
+    "error": 4
   },
-  "elapsedMs": 42852
+  "elapsedMs": 14134
 }
