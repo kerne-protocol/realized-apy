@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:37:13.567Z",
+  "generated_at": "2026-09-23T11:37:20.269Z",
   "signer": "0x84949170e0ad0f9bd8686a4aa4922c10f5fdc4ea",
   "signature": {
     "hashMatches": true,
@@ -19,8 +19,8 @@
       "published": {
         "ppsFrom": "1.000098667771066974",
         "ppsTo": "1.000098667771066974",
-        "fromBlock": 50347838,
-        "toBlock": 51643838,
+        "fromBlock": 50391038,
+        "toBlock": 51687038,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -49,19 +49,19 @@
       "chain": "ethereum",
       "address": "0xfE0ccc9942E98C963Fe6b4e5194EB6e3Baa4cb64",
       "published": {
-        "ppsFrom": "1.049755102036932345",
-        "ppsTo": "1.053311720705357923",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 4.201,
-        "growthPct": 0.338805
+        "ppsFrom": "1.049907708377194992",
+        "ppsTo": "1.053443598788397595",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 4.1754,
+        "growthPct": 0.336781
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.049755102036932345",
-        "ppsTo": "1.053311720705357923",
-        "annualizedPct": 4.201,
-        "growthPct": 0.338805,
+        "ppsFrom": "1.049907708377194992",
+        "ppsTo": "1.053443598788397595",
+        "annualizedPct": 4.1754,
+        "growthPct": 0.336781,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -81,19 +81,19 @@
       "chain": "avalanche",
       "address": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E",
       "published": {
-        "ppsFrom": "1.19561212597844171",
-        "ppsTo": "1.203138468417267629",
-        "fromBlock": 93493274,
-        "toBlock": 95909769,
-        "annualizedPct": 7.9339,
-        "growthPct": 0.629497
+        "ppsFrom": "1.195865065541006379",
+        "ppsTo": "1.203385019230063415",
+        "fromBlock": 93571544,
+        "toBlock": 95977212,
+        "annualizedPct": 7.9252,
+        "growthPct": 0.62883
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.19561212597844171",
-        "ppsTo": "1.203138468417267629",
-        "annualizedPct": 7.9339,
-        "growthPct": 0.629497,
+        "ppsFrom": "1.195865065541006379",
+        "ppsTo": "1.203385019230063415",
+        "annualizedPct": 7.9252,
+        "growthPct": 0.62883,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -113,19 +113,19 @@
       "chain": "ethereum",
       "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
       "published": {
-        "ppsFrom": "1.07649999409544553",
-        "ppsTo": "1.081425868908051283",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 5.7117,
-        "growthPct": 0.457582
+        "ppsFrom": "1.076653686762177986",
+        "ppsTo": "1.081591306703646114",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 5.7248,
+        "growthPct": 0.458608
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.07649999409544553",
-        "ppsTo": "1.081425868908051283",
-        "annualizedPct": 5.7117,
-        "growthPct": 0.457582,
+        "ppsFrom": "1.076653686762177986",
+        "ppsTo": "1.081591306703646114",
+        "annualizedPct": 5.7248,
+        "growthPct": 0.458608,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -145,19 +145,19 @@
       "chain": "ethereum",
       "address": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
       "published": {
-        "ppsFrom": "1.106428641774311756",
-        "ppsTo": "1.107859237824311404",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 1.5845,
-        "growthPct": 0.129299
+        "ppsFrom": "1.106468001145650179",
+        "ppsTo": "1.107945683846809829",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 1.637,
+        "growthPct": 0.13355
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.106428641774311756",
-        "ppsTo": "1.107859237824311404",
-        "annualizedPct": 1.5845,
-        "growthPct": 0.129299,
+        "ppsFrom": "1.106468001145650179",
+        "ppsTo": "1.107945683846809829",
+        "annualizedPct": 1.637,
+        "growthPct": 0.13355,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -177,19 +177,19 @@
       "chain": "ethereum",
       "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
       "published": {
-        "ppsFrom": "1.244653461253229326",
-        "ppsTo": "1.24934900215551667",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 4.6879,
-        "growthPct": 0.377257
+        "ppsFrom": "1.244789379269244091",
+        "ppsTo": "1.249504308483374338",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 4.7071,
+        "growthPct": 0.378773
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.244653461253229326",
-        "ppsTo": "1.24934900215551667",
-        "annualizedPct": 4.6879,
-        "growthPct": 0.377257,
+        "ppsFrom": "1.244789379269244091",
+        "ppsTo": "1.249504308483374338",
+        "annualizedPct": 4.7071,
+        "growthPct": 0.378773,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -209,19 +209,19 @@
       "chain": "ethereum",
       "address": "0xc8CF6D7991f15525488b2A83Df53468D682Ba4B0",
       "published": {
-        "ppsFrom": "1.131359394289478854",
-        "ppsTo": "1.135710525369599252",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 4.781,
-        "growthPct": 0.384593
+        "ppsFrom": "1.13142726906646786",
+        "ppsTo": "1.135829385166965975",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 4.838,
+        "growthPct": 0.389076
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.131359394289478854",
-        "ppsTo": "1.135710525369599252",
-        "annualizedPct": 4.781,
-        "growthPct": 0.384593,
+        "ppsFrom": "1.13142726906646786",
+        "ppsTo": "1.135829385166965975",
+        "annualizedPct": 4.838,
+        "growthPct": 0.389076,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -241,19 +241,19 @@
       "chain": "ethereum",
       "address": "0xcf62F905562626CfcDD2261162a51fd02Fc9c5b6",
       "published": {
-        "ppsFrom": "1.207199612643926233",
-        "ppsTo": "1.211764822505324945",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 4.6994,
-        "growthPct": 0.378165
+        "ppsFrom": "1.207332516940397278",
+        "ppsTo": "1.211920481488834545",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 4.7228,
+        "growthPct": 0.380008
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.207199612643926233",
-        "ppsTo": "1.211764822505324945",
-        "annualizedPct": 4.6994,
-        "growthPct": 0.378165,
+        "ppsFrom": "1.207332516940397278",
+        "ppsTo": "1.211920481488834545",
+        "annualizedPct": 4.7228,
+        "growthPct": 0.380008,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -273,19 +273,19 @@
       "chain": "ethereum",
       "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
       "published": {
-        "ppsFrom": "1.179588",
-        "ppsTo": "1.184357",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 5.0315,
-        "growthPct": 0.404294
+        "ppsFrom": "1.179742",
+        "ppsTo": "1.184516",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 5.0362,
+        "growthPct": 0.404665
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.179588",
-        "ppsTo": "1.184357",
-        "annualizedPct": 5.0315,
-        "growthPct": 0.404294,
+        "ppsFrom": "1.179742",
+        "ppsTo": "1.184516",
+        "annualizedPct": 5.0362,
+        "growthPct": 0.404665,
         "elapsedSeconds": 2592000,
         "shareDecimals": 6,
         "assetDecimals": 6
@@ -305,19 +305,19 @@
       "chain": "ethereum",
       "address": "0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D",
       "published": {
-        "ppsFrom": "1.139992",
-        "ppsTo": "1.144324",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 4.7227,
-        "growthPct": 0.380003
+        "ppsFrom": "1.140123",
+        "ppsTo": "1.14448",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 4.75,
+        "growthPct": 0.382152
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.139992",
-        "ppsTo": "1.144324",
-        "annualizedPct": 4.7227,
-        "growthPct": 0.380003,
+        "ppsFrom": "1.140123",
+        "ppsTo": "1.14448",
+        "annualizedPct": 4.75,
+        "growthPct": 0.382152,
         "elapsedSeconds": 2592000,
         "shareDecimals": 6,
         "assetDecimals": 6
@@ -339,8 +339,8 @@
       "published": {
         "ppsFrom": "1.064387162516178975",
         "ppsTo": "1.064387162516178975",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -369,19 +369,19 @@
       "chain": "ethereum",
       "address": "0xe24a3dc889621612422a64e6388927901608b91d",
       "published": {
-        "ppsFrom": "1.216673601059459158",
-        "ppsTo": "1.223962862758115072",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 7.5381,
-        "growthPct": 0.599114
+        "ppsFrom": "1.216876914341414177",
+        "ppsTo": "1.2241269775900493",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 7.4949,
+        "growthPct": 0.595793
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.216673601059459158",
-        "ppsTo": "1.223962862758115072",
-        "annualizedPct": 7.5381,
-        "growthPct": 0.599114,
+        "ppsFrom": "1.216876914341414177",
+        "ppsTo": "1.2241269775900493",
+        "annualizedPct": 7.4949,
+        "growthPct": 0.595793,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -401,19 +401,19 @@
       "chain": "ethereum",
       "address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
       "published": {
-        "ppsFrom": "1.10717059219903728",
-        "ppsTo": "1.110367461975031906",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 3.5702,
-        "growthPct": 0.288742
+        "ppsFrom": "1.107275534633353086",
+        "ppsTo": "1.11047505766923845",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 3.5729,
+        "growthPct": 0.288955
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.10717059219903728",
-        "ppsTo": "1.110367461975031906",
-        "annualizedPct": 3.5702,
-        "growthPct": 0.288742,
+        "ppsFrom": "1.107275534633353086",
+        "ppsTo": "1.11047505766923845",
+        "annualizedPct": 3.5729,
+        "growthPct": 0.288955,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -433,19 +433,19 @@
       "chain": "ethereum",
       "address": "0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE",
       "published": {
-        "ppsFrom": "1.10717",
-        "ppsTo": "1.110367",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 3.5704,
-        "growthPct": 0.288754
+        "ppsFrom": "1.107275",
+        "ppsTo": "1.110475",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 3.5734,
+        "growthPct": 0.288998
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.10717",
-        "ppsTo": "1.110367",
-        "annualizedPct": 3.5704,
-        "growthPct": 0.288754,
+        "ppsFrom": "1.107275",
+        "ppsTo": "1.110475",
+        "annualizedPct": 3.5734,
+        "growthPct": 0.288998,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 6
@@ -465,19 +465,19 @@
       "chain": "ethereum",
       "address": "0x280839980a7eD0D7717F64125fE241012E5F5815",
       "published": {
-        "ppsFrom": "1.016128742690029908",
-        "ppsTo": "1.024494138008763705",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
-        "annualizedPct": 10.4898,
-        "growthPct": 0.823261
+        "ppsFrom": "1.016414880903453066",
+        "ppsTo": "1.024770960650536584",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
+        "annualizedPct": 10.4745,
+        "growthPct": 0.822113
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.016128742690029908",
-        "ppsTo": "1.024494138008763705",
-        "annualizedPct": 10.4898,
-        "growthPct": 0.823261,
+        "ppsFrom": "1.016414880903453066",
+        "ppsTo": "1.024770960650536584",
+        "annualizedPct": 10.4745,
+        "growthPct": 0.822113,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -497,19 +497,19 @@
       "chain": "ethereum",
       "address": "0xd861bE82dEe3223CFBEd160791f6550b0704D406",
       "published": {
-        "ppsFrom": "1.032950188152235721",
-        "ppsTo": "1.036360498428178454",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "ppsFrom": "1.03306374954566543",
+        "ppsTo": "1.036474371411157204",
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 4.0917,
-        "growthPct": 0.330152
+        "growthPct": 0.330146
       },
       "status": "PASS",
       "mine": {
-        "ppsFrom": "1.032950188152235721",
-        "ppsTo": "1.036360498428178454",
+        "ppsFrom": "1.03306374954566543",
+        "ppsTo": "1.036474371411157204",
         "annualizedPct": 4.0917,
-        "growthPct": 0.330152,
+        "growthPct": 0.330146,
         "elapsedSeconds": 2592000,
         "shareDecimals": 18,
         "assetDecimals": 18
@@ -531,8 +531,8 @@
       "published": {
         "ppsFrom": "1.115324242564639433",
         "ppsTo": "1.115324242564639433",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -563,8 +563,8 @@
       "published": {
         "ppsFrom": "1.132966158918315225",
         "ppsTo": "1.132966158918315225",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -595,8 +595,8 @@
       "published": {
         "ppsFrom": "0.998453",
         "ppsTo": "0.998453",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -627,8 +627,8 @@
       "published": {
         "ppsFrom": "1.07056672845499187",
         "ppsTo": "1.07056672845499187",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -659,8 +659,8 @@
       "published": {
         "ppsFrom": "1.148556137630990128",
         "ppsTo": "1.148556137630990128",
-        "fromBlock": 25817601,
-        "toBlock": 26032772,
+        "fromBlock": 25824779,
+        "toBlock": 26039926,
         "annualizedPct": 0,
         "growthPct": 0
       },
@@ -689,5 +689,5 @@
     "skip": 0,
     "error": 0
   },
-  "elapsedMs": 3445
+  "elapsedMs": 16334
 }
