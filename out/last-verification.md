@@ -1,6 +1,6 @@
 # Last independent verification
 
-Snapshot 2026-09-25T11:37:23.048Z, signer 0x84949170e0ad0f9bd8686a4aa4922c10f5fdc4ea.
+Snapshot 2026-09-26T11:37:23.065Z, signer 0x84949170e0ad0f9bd8686a4aa4922c10f5fdc4ea.
 
 | result | rows |
 | --- | --- |
@@ -14,4 +14,4 @@ Signature: verified, and the rows are bound to it.
 Run from a clean clone by a GitHub runner. Reproduce it yourself with
 `node bin/realized-apy.mjs check`.
 
-- unread avant-savusd: One endpoint could not answer eth_call at "0x5bab371", which usually means it is behind. Retry, or pin an older block.
+- unread avant-savusd: One endpoint could not answer eth_call at "0x5bbc1cd", which usually means it is behind. Retry, or pin an older block.
