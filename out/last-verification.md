@@ -1,6 +1,6 @@
 # Last independent verification
 
-Snapshot 2026-10-13T14:37:21.655Z, signer 0x84949170e0ad0f9bd8686a4aa4922c10f5fdc4ea.
+Snapshot 2026-09-01T00:40:56.233Z, signer undefined.
 
 | result | rows |
 | --- | --- |
@@ -9,9 +9,9 @@ Snapshot 2026-10-13T14:37:21.655Z, signer 0x84949170e0ad0f9bd8686a4aa4922c10f5fd
 | publish no realized figure | 0 |
 | could not be read this run | 1 |
 
-Signature: verified, and the rows are bound to it.
+Signature: DID NOT VERIFY.
 
 Run from a clean clone by a GitHub runner. Reproduce it yourself with
 `node bin/realized-apy.mjs check`.
 
-- unread avant-savusd: One endpoint could not answer eth_call at "0x5cf017e", which usually means it is behind. Retry, or pin an older block.
+- unread avant-savusd: One endpoint could not answer eth_call at "0x59cccec", which usually means it is behind. Retry, or pin an older block.
