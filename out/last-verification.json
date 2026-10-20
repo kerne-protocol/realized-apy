@@ -90,7 +90,7 @@
         "growthPct": 0.70329
       },
       "status": "ERROR",
-      "reason": "Two endpoints disagreed about eth_getBlockByNumber at false.\n  https://api.avax.network/ext/bc/C/rpc: {\"number\":\"91798954\",\"timestamp\":\"1785631220\",\"hash\":\"0x6c7137254bf3879658ecb80690b6fdf50f3d059ae106b8c1f33b7145da26e2d2\"}\n  https://avalanche.drpc.org: null"
+      "reason": "Two endpoints disagreed about eth_getBlockByNumber at false.\n  https://api.avax.network/ext/bc/C/rpc: {\"number\":\"94162156\",\"timestamp\":\"1788223220\",\"hash\":\"0xffb1e1008a40bd3370580942ab491a206c562647b5244b6118de41529351bee7\"}\n  https://avalanche.drpc.org: null"
     },
     {
       "key": "cap-stcusd",
@@ -675,5 +675,5 @@
     "skip": 0,
     "error": 1
   },
-  "elapsedMs": 3546
+  "elapsedMs": 4817
 }
