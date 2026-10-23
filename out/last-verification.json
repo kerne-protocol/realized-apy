@@ -90,7 +90,7 @@
         "growthPct": 0.70329
       },
       "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x59cccec\", which usually means it is behind. Retry, or pin an older block.\n  https://api.avax.network/ext/bc/C/rpc: \"0x0000000000000000000000000000000000000000000000000000000000000012\"\n  https://avalanche.drpc.org: \"!call-error\""
+      "reason": "Two endpoints disagreed about eth_getBlockByNumber at false.\n  https://api.avax.network/ext/bc/C/rpc: {\"number\":\"94162156\",\"timestamp\":\"1788223220\",\"hash\":\"0xffb1e1008a40bd3370580942ab491a206c562647b5244b6118de41529351bee7\"}\n  https://avalanche.drpc.org: null"
     },
     {
       "key": "cap-stcusd",
@@ -675,5 +675,5 @@
     "skip": 0,
     "error": 1
   },
-  "elapsedMs": 13411
+  "elapsedMs": 4224
 }
