@@ -14,4 +14,4 @@ Signature: DID NOT VERIFY.
 Run from a clean clone by a GitHub runner. Reproduce it yourself with
 `node bin/realized-apy.mjs check`.
 
-- unread avant-savusd: One endpoint could not answer eth_call at "0x59cccec", which usually means it is behind. Retry, or pin an older block.
+- unread avant-savusd: Two endpoints disagreed about eth_getBlockByNumber at false.
