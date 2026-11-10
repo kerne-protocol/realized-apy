@@ -426,8 +426,23 @@
         "annualizedPct": 3.5198,
         "growthPct": 0.284726
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18ae178\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"0x0000000000000000000000000000000000000000000000000000000000000006\"\n  https://eth-mainnet.public.blastapi.io: \"!call-error\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.104921",
+        "ppsTo": "1.108067",
+        "annualizedPct": 3.5198,
+        "growthPct": 0.284726,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 6
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "tori-strusd",
@@ -443,8 +458,23 @@
         "annualizedPct": 10.9609,
         "growthPct": 0.85852
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18ae178\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"0x0000000000000000000000000000000000000000000000000000000000000012\"\n  https://eth-mainnet.public.blastapi.io: \"!call-error\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.009871638525934615",
+        "ppsTo": "1.018541588413038739",
+        "annualizedPct": 10.9609,
+        "growthPct": 0.85852,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "usual-susd0",
@@ -492,8 +522,23 @@
         "annualizedPct": 0,
         "growthPct": 0
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18ae178\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"0x0000000000000000000000000000000000000000000000000000000000000012\"\n  https://eth-mainnet.public.blastapi.io: \"!call-error\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.115324242564639433",
+        "ppsTo": "1.115324242564639433",
+        "annualizedPct": 0,
+        "growthPct": 0,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "resolv-wstusr",
@@ -573,8 +618,23 @@
         "annualizedPct": 0,
         "growthPct": 0
       },
-      "status": "ERROR",
-      "reason": "One endpoint could not answer eth_call at \"0x18ae178\", which usually means it is behind. Retry, or pin an older block.\n  https://eth.drpc.org: \"0x0000000000000000000000000000000000000000000000000000000000000012\"\n  https://eth-mainnet.public.blastapi.io: \"!call-error\""
+      "status": "PASS",
+      "mine": {
+        "ppsFrom": "1.07056672845499187",
+        "ppsTo": "1.07056672845499187",
+        "annualizedPct": 0,
+        "growthPct": 0,
+        "elapsedSeconds": 2592000,
+        "shareDecimals": 18,
+        "assetDecimals": 18
+      },
+      "detail": {
+        "ppsFromMatch": true,
+        "ppsToMatch": true,
+        "annualizedMatch": true,
+        "annualizedDelta": 0,
+        "decimalsNote": null
+      }
     },
     {
       "key": "level-slvlusd",
@@ -610,10 +670,10 @@
     }
   ],
   "totals": {
-    "pass": 16,
+    "pass": 20,
     "fail": 0,
     "skip": 0,
-    "error": 5
+    "error": 1
   },
-  "elapsedMs": 23599
+  "elapsedMs": 19013
 }
