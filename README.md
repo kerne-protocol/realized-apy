@@ -1,5 +1,23 @@
 # realized-apy
 
+> **Status, 13 November 2026: the daily check is paused.** `check` reads a signed snapshot from
+> `https://kerne.fi/api/honesty-index`. The server that produced and signed that snapshot went
+> offline on 14 October 2026 and was deleted on 28 October 2026. Since 12 November 2026 the
+> endpoint answers HTTP 503 and returns no snapshot, so `check` with no options stops with that
+> error.
+>
+> The daily job in this repository failed on every run from 14 October 2026 (run 69) to
+> 13 November 2026 (run 99), 31 runs in a row. None of the runs that could read a snapshot
+> recorded a row that failed to reproduce. They failed because the snapshot no longer carried a
+> signature that verifies, and this tool treats that as a failure on purpose. The last recorded
+> result is in [`out/last-verification.md`](out/last-verification.md), and the daily comments are
+> in issue 1.
+>
+> The schedule is switched off as of this commit, because a job that can only fail tells nobody
+> anything new. The offline test suite (`npm test`) still runs on every push and still verifies
+> the signed snapshot committed under `test/fixtures/`. The schedule can be switched back on once
+> a signed snapshot is published again.
+
 **What an ERC-4626 dollar vault actually paid, read from the chain. And a
 one-command check of every row Kerne publishes about other people.**
 

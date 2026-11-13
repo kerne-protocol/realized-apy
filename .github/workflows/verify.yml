@@ -17,8 +17,13 @@ name: verify
 # anyone looked.
 
 on:
-  schedule:
-    - cron: '23 7 * * *'
+  # The daily schedule is switched off as of 2026-11-13. The snapshot this job
+  # reads (kerne.fi/api/honesty-index) has not carried a signature that verifies
+  # since 2026-10-14 and has returned HTTP 503 since 2026-11-12, so a scheduled
+  # run can only fail. See the status note at the top of README.md.
+  # To restore the daily run, put these two lines back:
+  #   schedule:
+  #     - cron: '23 7 * * *'
   workflow_dispatch:
   push:
     branches: [main]
